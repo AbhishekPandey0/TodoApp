@@ -1,0 +1,45 @@
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list-item:last-child {
+  border-bottom: none;
+}
+
+.priority-select {
+  margin-left: 10px;
+}
+
+.delete-button {
+  margin-left: 10px;
+  background-color: #ff0000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #cc0000;
+}
